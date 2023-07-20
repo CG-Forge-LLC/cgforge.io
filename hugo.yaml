@@ -1,4 +1,4 @@
-baseURL: "http://cgforge.io"
+baseURL: "https://www.cgforge.io"
 title: CG Forge
 
 theme: "PaperMod"
