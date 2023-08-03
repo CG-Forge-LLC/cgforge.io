@@ -6,7 +6,11 @@ theme: "PaperMod"
 
 
 params:
+  env: production
   disableThemeToggle: true
+  analytics:
+    google:
+      SiteVerificationTag: "G-CLGS13XE0M"
   homeInfoParams:
     Title: "Hello!"
     Content: >
