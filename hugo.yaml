@@ -2,3 +2,16 @@ baseURL: "https://www.cgforge.io"
 title: CG Forge
 
 theme: "PaperMod"
+
+
+
+params:
+  disableThemeToggle: true
+  homeInfoParams:
+    Title: "Hello!"
+    Content: >
+      **CG Forge** is a cloud, infrastructure, and applications consultancy firm.
+      We have decades of experience in media production, large scale cloud environments, video games, and security.
+      Our specialties include creating custom cloud first solutions for your unique business needs.
+
+      Please reach out to us anytime at <contact@cgforge.io>
