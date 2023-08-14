@@ -3,6 +3,7 @@ title: CG Forge
 
 theme: "PaperMod"
 
+googleAnalytics: G-CLGS13XE0M
 
 
 params:
@@ -11,11 +12,45 @@ params:
   analytics:
     google:
       SiteVerificationTag: "G-CLGS13XE0M"
-  homeInfoParams:
-    Title: "Hello!"
-    Content: >
+  # homeInfoParams:
+  #   Title: "Hello!"
+  #   Content: >
+  #     **CG Forge** is a cloud, infrastructure, and applications consultancy firm.
+  #     We have decades of experience in media production, large scale cloud environments, video games, and security.
+  #     Our specialties include creating custom cloud first solutions for your unique business needs.
+
+  #     Please reach out to us anytime at <contact@cgforge.io>
+  profileMode:
+    enabled: true
+    title: "CG Forge" # optional default will be site title
+    # subtitle: "This is subtitle"
+    subtitle: >
       **CG Forge** is a cloud, infrastructure, and applications consultancy firm.
       We have decades of experience in media production, large scale cloud environments, video games, and security.
-      Our specialties include creating custom cloud first solutions for your unique business needs.
+      Our specialties include creating custom cloud first solutions for your unique business needs.       
 
-      Please reach out to us anytime at <contact@cgforge.io>
+    #imageUrl: "images/cgforge_lgog.png" # optional
+    imageTitle: "<title of image as alt>" # optional
+    imageWidth: 660 # custom size
+    imageHeight: 262 # custom size
+    buttons:
+        - name: services
+          url: "/services"
+        - name: about
+          url: "/about"
+        - name: contact
+          url: "/contact"
+menu:
+  main:
+    - identifier: services
+      name: services
+      url: /services/
+      weight: 10
+    - identifier: about
+      name: about
+      url: /about/
+      weight: 20
+    - identifier: contact
+      name: contact
+      url: /contact/
+      weight: 30
